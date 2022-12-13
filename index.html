@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CCLab Project</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+
+  <script src="libraries/p5.min.js"></script>
+  <!-- Uncomment the line below if you use audio. -->
+  <!-- <script src="libraries/p5.sound.min.js"></script> -->
+</head>
+
+<body>
+
+  <h1>Foraging</h1>
+
+  <!-- the following div will contain the p5 canvas. -->
+  <div id="canvasContainer"></div>
+
+  <p class= "subtitle" id="description">
+    Project Description </p>
+
+  <p class="info" id="leftinfo">
+    Inspired by my interest in mushroom foraging, this project attempts to replicate the feeling of searching for mushrooms
+    in nature. Within the forest are 4 different types of mushrooms, although you may not always be able to find all 4 of them. As
+    you search for the mushrooms, you can move around to different parts in the forest. Upon finding a mushroom, hovering over it will 
+    display information about the mushroom you have found. All 4 types of mushrooms in this forest are poisonous, representing the 
+    potential dangers of hunting for mushrooms in real life.  </p>
+
+
+  <p class= "subtitle" id="instructions">
+    Instructions</p>
+  
+  <p class="info" id="rightinfo">
+    1) Hold down your mouse and drag over the canvas to move through the forest. <br>
+    2) If you find a mushroom, hover your mouse over it (no need to press), to display an informational page about the mushroom. <br>
+    3) To return to the forest, simply move your mouse away from the mushroom.</p>
+
+  <!-- the script tag below should always be at the bottom, right before the closing body tag -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>
